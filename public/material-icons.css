@@ -1,14 +1,19 @@
+.material-icons.right {
+  float: right;
+  margin-left: 10px;
+}
+
 /* Rules for sizing the icon. */
-.material-icons.md-18 {
+.material-icons.md-small {
   font-size: 18px;
 }
-.material-icons.md-24 {
+.material-icons.md-medium {
   font-size: 24px;
 }
-.material-icons.md-36 {
+.material-icons.md-large {
   font-size: 36px;
 }
-.material-icons.md-48 {
+.material-icons.md-xlarge {
   font-size: 48px;
 }
 

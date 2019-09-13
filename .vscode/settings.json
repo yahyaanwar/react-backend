@@ -13,5 +13,23 @@
     "explorerExclude.backup": null,
     "emmet.includeLanguages": {
         "javascript": "javascriptreact"
+    },
+    "todo-tree.highlights.defaultHighlight": {
+        "icon": "alert",
+        "type": "text",
+        "foreground": "red",
+        "background": "white",
+        "opacity": 50,
+        "iconColour": "yellow"
+    },
+    "todo-tree.highlights.customHighlight": {
+        "TODO": {
+            "icon": "check",
+            "type": "line"
+        },
+        "FIXME": {
+            "foreground": "orange",
+            "iconColour": "yellow"
+        }
     }
 }
