@@ -1,4 +1,4 @@
-.IconBar {
+.RightBar {
   text-align: center;
   background: rgb(51, 51, 51);
   color: white;
@@ -6,38 +6,35 @@
   position: relative;
 }
 
-.IconBar ul {
+.RightBar ul {
   padding: 0;
 }
 
-.IconBar li {
-  padding: 0px 5px 5px;
+.RightBar li {
+  padding: 5px;
   margin: 5px;
   overflow: hidden;
   text-overflow: ellipsis;
+  display: inline-block;
 }
 
-.IconBar li.active i {
+.RightBar li.active i {
   color: yellow;
 }
 
-.IconBar li.active,
-.IconBar li:hover {
+.RightBar li.active,
+.RightBar li:hover {
   border-radius: 05px;
   background: rgb(24, 24, 24);
 }
 
-.IconBar .material-icons {
-  display: block;
-  background: rgb(24, 24, 24);
-  width: 20px;
+.RightBar .material-icons {
   padding: 5px;
-  margin: 5px auto;
   border-radius: 5px;
   font-size: 1.2rem;
 }
 
-.IconBar .footer {
+.RightBar .footer {
   position: absolute;
   right: 10px;
   left: 10px;

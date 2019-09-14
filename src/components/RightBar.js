@@ -1,28 +1,24 @@
 import React from 'react';
 
-import './IconBar.css';
+import './RightBar.css';
 
 // TODO: Change structure to UL > LI based
 
-function IconBar() {
+function RightBar() {
     return (
-        <div className="IconBar">
+        <div className="RightBar">
             <ul>
                 <li>
-                    <i className="material-icons md-light ">account_circle</i>
-                    Users
+                    <i className="material-icons md-light">account_circle</i>
                 </li>
                 <li className="active">
                     <i className="material-icons md-light">shopping_cart</i>
-                    International Stores
                 </li>
                 <li>
                     <i className="material-icons md-light">commute</i>
-                    Transportations
                 </li>
                 <li>
                     <i className="material-icons md-light">build</i>
-                    Settings
                 </li>
             </ul>
             <div className="footer">
@@ -32,4 +28,4 @@ function IconBar() {
     );
 }
 
-export default IconBar;
+export default RightBar;

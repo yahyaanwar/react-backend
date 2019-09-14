@@ -1,0 +1,10 @@
+.ListContent ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.ListContent li {
+  padding: 10px;
+  border-bottom: 1px solid rgb(230, 230, 230);
+}

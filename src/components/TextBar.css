@@ -3,8 +3,8 @@
   background: rgb(51, 51, 51);
   display: inline-block;
   color: white;
-  font-size: 0.7rem;
   position: relative;
+  padding-right: 10px;
 }
 
 .TextBar .action {
@@ -19,7 +19,6 @@
 }
 
 .TextBar i {
-  font-size: 0.7rem;
   background: rgb(24, 24, 24);
   padding: 5px;
   margin-top: -4px;
@@ -49,7 +48,6 @@
 .TextBar li b {
   color: yellow;
   margin-left: -10px;
-  font-size: 0.8rem;
 }
 
 .TextBar .footer {
