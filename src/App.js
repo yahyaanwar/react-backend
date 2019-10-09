@@ -6,6 +6,7 @@ import Header from './components/Header';
 import ActionBar from './components/ActionBar';
 import RightBar from './components/RightBar';
 import ListContent from './components/ListContent';
+import FormContent from './components/FormContent';
 import './App.css';
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
               <ActionBar />
               <ListContent />
             </div>
+            <FormContent />
           </div>
         </div>
         <RightBar />

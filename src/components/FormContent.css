@@ -1,0 +1,28 @@
+.FormContent {
+  width: fit-content;
+  position: relative;
+  box-shadow: -3px 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+.FormContent table {
+  padding: 20px;
+}
+
+.FormContent td {
+  padding: 10px;
+}
+
+.FormContent input,
+.FormContent textarea {
+  min-width: 100px;
+  width: 100%;
+}
+
+.FormContent .footer {
+  position: absolute;
+  right: 10px;
+  left: 10px;
+  bottom: 0;
+  padding: 10px;
+  border-radius: 5px 5px 0 0;
+}
