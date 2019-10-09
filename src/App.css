@@ -12,3 +12,14 @@
 .App .content {
   width: 100%;
 }
+
+.App .view {
+  display: flex;
+  align-content: stretch;
+  min-height: calc(100vh - 46px);
+  width: 100%;
+}
+
+.App .listContainer {
+  width: 100%;
+}

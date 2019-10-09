@@ -46,6 +46,7 @@
 }
 
 .TextBar li b {
+  font-size: 1rem;
   color: yellow;
   margin-left: -10px;
 }

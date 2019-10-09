@@ -16,8 +16,12 @@ function App() {
         <TextBar />
         <div className="content">
           <Header />
-          <ActionBar />
-          <ListContent />
+          <div className="view">
+            <div className="listContainer">
+              <ActionBar />
+              <ListContent />
+            </div>
+          </div>
         </div>
         <RightBar />
       </div>

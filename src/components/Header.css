@@ -8,6 +8,20 @@
   margin-right: 5px;
 }
 
+.Header .material-icons.right {
+  transform: translateY(10%);
+  margin-right: -5px;
+  background: grey;
+  color: white;
+  border-radius: 5px;
+  position: relative;
+  z-index: 1100;
+}
+
+.Header .material-icons.right:hover {
+  background: red;
+}
+
 .Header ul {
   margin: 0;
   padding: 0;

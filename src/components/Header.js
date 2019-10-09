@@ -10,14 +10,17 @@ function Header() {
                 <li className="active">
                     <i className="material-icons">mail</i>
                     Mail
+                    <i className="material-icons right">close</i>
                 </li>
                 <li>
                     <i className="material-icons">people</i>
                     Customer Caterogies
+                    <i className="material-icons right">close</i>
                 </li>
                 <li>
                     <i className="material-icons">shopping_cart</i>
                     Orders
+                    <i className="material-icons right">close</i>
                 </li>
             </ul>
             <input type="text" placeholder="Search..." />
